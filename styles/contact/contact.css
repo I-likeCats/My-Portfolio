@@ -1,0 +1,37 @@
+.github-icon {
+  height:40px;
+}
+
+.email-icon {
+  height:40px;
+}
+
+.contact {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.contact-email,
+.contact-github {
+  margin: 100px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.contact p {
+  margin-top: 5px;
+  align-self: center;
+}
+
+.contact-text p {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.contact-info {
+  margin-top: 5px;
+}
