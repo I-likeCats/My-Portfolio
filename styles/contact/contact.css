@@ -32,6 +32,31 @@
   font-weight: 600;
 }
 
-.contact-info {
+.contact-info-email,
+.contact-info-github {
   margin-top: 5px;
+  font-size: small;
+  color: rgb(156, 156, 156);
+}
+
+.contact-info-email:hover,
+.contact-info-github:hover {
+  text-decoration: underline;
+}
+
+.container-tooltip {
+  position: relative;
+}
+
+.tooltip {
+  background-color: rgb(175, 175, 175);
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(79, 79, 79);
+  border-width: 1px;
+  padding: 2px;
+  font-size: 8px;
+  width: fit-content;
+  position: absolute;
+  
 }
