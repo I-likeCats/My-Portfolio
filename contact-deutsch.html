@@ -13,23 +13,23 @@
   <body>
     <div class="header">
       <div class="left-section">
-        <a href="index.html">
+        <a href="01.html">
           <img src="/images/icons/home.png">
         </a>
       </div>
       <div class="middle-section">
-        <a class="middle-section-about" href="about.html">About</a>
-        <a class="middle-section-contacts" href="contact.html">Contact</a>
-        <a class="middle-section-projects" href="projects.html">Projects</a>
+        <a class="middle-section-about" href="about-deutsch.html">Über mich</a>
+        <a class="middle-section-contacts" href="contact-deutsch.html">Kontakt</a>
+        <a class="middle-section-projects" href="projects-deutsch.html">Projekte</a>
       </div>
       <div class="right-section">
-        <a href="01.html">
-          Deutsch
+        <a href="index.html">
+          English
         </a>
       </div>
     </div>
     <div class="contact-text">
-      <p>Contact me</p>
+      <p>Kontaktiere mich</p>
     </div>
     <div class="contact">
       <div class="contact-email">
@@ -38,7 +38,7 @@
         <div class="contact-info-email" id="email"
         data-email="quanhpublic@gmail.com">
           quanhpublic@gmail.com
-          <div class="tooltip">copy to clipboard</div>
+          <div class="tooltip">kopieren</div>
         </div>
       </div>
       <div class="contact-github">
@@ -52,7 +52,7 @@
         const mail = e.target.dataset.email;          // Adresse aus data‑Attr.
         try {
           await navigator.clipboard.writeText(mail);  // moderner Clipboard‑API
-          alert('E‑Mail copied: ' + mail);
+          alert('E‑Mail kopiert: ' + mail);
         } catch {                                     // Fallback für alte Browser
           const ta = document.createElement('textarea');
           ta.value = mail;
@@ -60,7 +60,7 @@
           ta.select();
           document.execCommand('copy');
           ta.remove();
-          alert('E‑Mail copied (Fallback): ' + mail);
+          alert('E‑Mail kopiert (Fallback): ' + mail);
         }
       });
     </script>
