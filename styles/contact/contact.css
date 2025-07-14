@@ -44,11 +44,20 @@
   text-decoration: underline;
 }
 
-.container-tooltip {
+.contact-info-email {
   position: relative;
+  font-family: Roboto, Arial;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.contact-info-email:hover {
+  cursor: pointer;
 }
 
 .tooltip {
+  color: black;
+  font-family: Roboto, Arial;
   background-color: rgb(175, 175, 175);
   border-style: solid;
   border-radius: 5px;
@@ -58,5 +67,12 @@
   font-size: 8px;
   width: fit-content;
   position: absolute;
-  
+  right: 0;
+  margin-top: 5px;
+  opacity: 0;
+  transition: opacity 0.15s linear;
+}
+
+.contact-info-email:hover .tooltip{
+  opacity: 1;
 }
