@@ -40,6 +40,7 @@ p {
   width: 5px;
   height: 280px;
   margin-left: 4px;
+  user-select: none;
 }
 
 .timeline-1,
@@ -64,8 +65,13 @@ p {
   height: 13px;
   position: absolute;
   left: -20px;
+  user-select: none;
 }
 
 .timeline-3 a {
   color: rgb(255, 145, 0);
+}
+
+img {
+  pointer-events: none;
 }
